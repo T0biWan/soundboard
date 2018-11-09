@@ -20,26 +20,21 @@
       </div>
     </div>
 
-    <span class="icon"><i class="fas fa-home"></i></span> <!-- Remove -->
-
-    <div class="sounds-container">
-      <div
-        class="custom-box"
-        v-for="topic in sounds.topics[activeTopic]"
-        v-bind:key="topic"
-        @click.prevent="playSound(topic.sound)"
-      >{{ topic.title }}</div>
-    </div>
+      <div class="sounds-container">
+        <div
+          class="custom-box"
+          v-for="topic in sounds.topics[activeTopic]"
+          v-bind:key="topic"
+          @click.prevent="playSound(topic.sound)"
+        ><h1>{{ topic.title }}</h1></div>
+      </div>
   </div>
 </template>
 
 <script>
-// Text im dropdown und den Sounds zentrieren
-// Dropdown Button Icon geben
-// Sounds icons geben
+// ReadMe
+// Farben random verteilen
 // JSON muss ausgelagert werden, sollte beim kompilieren auch gestasht werden
-// Fußzeile
-// Flexbox verbessern, es soll ein 3-Spaltiges Grid sein und auf kleineren Bildschirmen 2-Spaltig. bei einer ungeraden Anazhl von Elementen soll es linksbündig sein
 import json from '@/sounds.json'
 
 export default {
@@ -77,31 +72,37 @@ export default {
   }
 
   .dropdown-trigger {
-    width: 100%
+    width: 100%;
   }
 
   .button {
     display: flex;
     width: 100%;
-    justify-content: space-between
+    justify-content: center;
+    background-color: #03A9F4;
+    color: white;
   }
 
   .custom-box {
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
     color: #4a4a4a;
-    background-color: white;
+    background-color: #E1F5FE;
     width: 100px;
     height: 100px;
     border-radius: 5px;
-    margin-top: 25px;
-    margin-right: 25px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .sounds-container {
-    /* width: 300px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* justify-content: space-between; */
+    margin-bottom: 20px;
   }
 </style>

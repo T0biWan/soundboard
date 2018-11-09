@@ -1,15 +1,15 @@
 {
   "topics": {
     "animals": [
-      { "title": "lion", "icon": "", "sound": "http://soundbible.com/mp3/Elevator Ding-SoundBible.com-685385892.mp3"},
-      { "title": "wolf", "icon": "", "sound": "https://freesound.org/data/previews/139/139901_2535085-lq.mp3"},
-      { "title": "dog", "icon": "", "sound": ""},
-      { "title": "bird", "icon": "", "sound": ""},
-      { "title": "boar", "icon": "", "sound": ""},
-      { "title": "pig", "icon": "", "sound": ""},
-      { "title": "cat", "icon": "", "sound": ""},
-      { "title": "frog", "icon": "", "sound": ""},
-      { "title": "bear", "icon": "", "sound": ""}
+      { "title": "lion", "sound": "http://soundbible.com/mp3/Elevator Ding-SoundBible.com-685385892.mp3"},
+      { "title": "wolf", "sound": "https://freesound.org/data/previews/139/139901_2535085-lq.mp3"},
+      { "title": "dog", "sound": ""},
+      { "title": "bird", "sound": ""},
+      { "title": "boar", "sound": ""},
+      { "title": "pig", "sound": ""},
+      { "title": "cat", "sound": ""},
+      { "title": "frog", "sound": ""},
+      { "title": "bear", "sound": ""}
     ],
     "rooms": [],
     "weapons": [],
