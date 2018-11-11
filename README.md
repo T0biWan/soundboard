@@ -2,7 +2,7 @@
 
 > A mobile first web app to play sounds.
 >
-> Give your pen & paper adventure more depth with sounds or annoy the hell out of your friends.
+> Give your pen & paper adventures more depth with or annoy your friends.
 
 ![screenshot](screenshot.png)
 
