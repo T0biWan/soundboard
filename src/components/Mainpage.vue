@@ -32,9 +32,6 @@
 </template>
 
 <script>
-// ReadMe
-// Farben random verteilen
-// JSON muss ausgelagert werden, sollte beim kompilieren auch gestasht werden
 import json from '@/sounds.json'
 
 export default {
@@ -43,8 +40,7 @@ export default {
     return{
       sounds: json,
       dropdownIsActive: false,
-      activeTopic: 'animals' // remove
-      // activeTopic: 'choose a topic...'
+      activeTopic: 'choose a topic...'
     }
   },
   methods: {
