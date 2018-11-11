@@ -33,12 +33,18 @@ npm run lint
 
 ## Adding sounds
 
-Add an array to the _topics_-object and add your sounds to it, for example:
+Edit `src/sounds.json` and add an array to the _topics_-object where you can add your sounds, for example:
 
 ```json
 "atmosphere": [
   {"title": "thunder", "sound":"URL"}
 ]
+```
+
+After that you have to compile the project again:
+
+```
+npm run build
 ```
 
 ## Built With
