@@ -1,6 +1,6 @@
 # soundboard
 
-> A mobile first web app to play sounds.
+> A mobile web app to play sounds.
 >
 > Give your pen & paper adventures more depth with or annoy your friends.
 
