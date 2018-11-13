@@ -2,17 +2,24 @@
   "topics": {
     "animals": [
       { "title": "lion", "sound": "http://soundbible.com/mp3/Elevator Ding-SoundBible.com-685385892.mp3"},
-      { "title": "wolf", "sound": "https://freesound.org/data/previews/139/139901_2535085-lq.mp3"},
-      { "title": "dog", "sound": ""},
+      { "title": "wolf howling", "sound": "https://freesound.org/data/previews/139/139901_2535085-lq.mp3"},
+      { "title": "dog barking", "sound": "https://freesound.org/data/previews/420/420450_2402876-lq.mp3"},
+      { "title": "frog", "sound": "https://freesound.org/data/previews/46/46241_231832-lq.mp3"},
       { "title": "bird", "sound": ""},
       { "title": "boar", "sound": ""},
       { "title": "pig", "sound": ""},
       { "title": "cat", "sound": ""},
-      { "title": "frog", "sound": ""},
       { "title": "bear", "sound": ""}
     ],
-    "rooms": [],
-    "weapons": [],
+    "rooms": [
+      {"title": "door opens", "sound": "https://freesound.org/data/previews/431/431117_5121236-lq.mp3"},
+      {"title": "door closes", "sound": "https://freesound.org/data/previews/411/411791_5121236-lq.mp3"}
+    ],
+    "weapons": [
+      {"title": "swung", "sound": "https://freesound.org/data/previews/216/216675_2549002-lq.mp3"},
+      {"title": "arrow shot", "sound": "https://freesound.org/data/previews/321/321553_5488813-lq.mp3"},
+      {"title": "sword clash", "sound": "https://freesound.org/data/previews/334/334169_5859881-lq.mp3"}
+    ],
     "atmosphere": []
   }
 }
